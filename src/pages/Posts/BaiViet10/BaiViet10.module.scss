@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+.customoverlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;  
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 770px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.entry-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 770px;
+    font-size: 14px;
+    font-family: PT Serif, Serif, sans-serif;
+    color: #636363;
+    line-height: 1.8;
+    text-align: justify; 
+}
+
+.entry-summary p {
+    margin-bottom: 20px;
+}
+
+.entry-summary strong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.entry-summary p a {
+    color: #CEA352;
+    text-decoration: none;
+}
+
+.entry-summary p a:hover {
+    text-decoration: underline;
+}
+
+.entry-summary7-pictures {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    width: 100%;
+    max-width: 770px;
+}
+
+.entry-summary7-pictures img {
+    width: 100%;
+    height: auto;
+}
+
+a.note-pic {
+    font-size: 14px;
+    font-family: PT Serif, Serif, sans-serif;
+    color: #CEA352;
+    text-align: center; 
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a.note-pic:hover {
+    color: #636363;
+    text-decoration: none;
+}
+
+
+.entry-title {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+img{
+    text-align: center;
+    margin-top: 20px;
+}
+.entry-title:hover {
+    color: #CEA352;
+}
+
+.entry-info {
+    text-align: justify; 
+    font-family: PT Serif, Serif, sans-serif;
+    color: #636363;
+    width: 100%;
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.entry-info strong {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-family: Poppins, sans-serif;
+}
+
+.entry-info p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
